@@ -22,12 +22,12 @@ InstallDir $PROFILE\faceswap
 !define flagsConda "/S /RegisterPython=0 /AddToPath=0 /D=$Profile\MiniConda3"
 !define flagsGit "/SILENT /NORESTART /NOCANCEL /SP /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS"
 !define flagsRepo "--depth 1 --no-single-branch ${wwwRepo}"
-!define flagsEnv "-y python=3.6"
+!define flagsEnv "-y python=3.5"
 
 # Dlib Wheel prefix
 !define prefixDlib "dlib-19.16.99-cp36-cp36m-win_amd64"
 !define dlibFinalName "dlib-19.16.99-cp36-cp36m-win_amd64.whl" # Dlib Wheel MUST have this name before installing
-!define cudaDlib "_cuda90"
+!define cudaDlib "_cuda80"
 !define avxDlib "_avx"
 !define sseDlib "_sse4"
 !define noneDlib "_none"
